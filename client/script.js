@@ -85,7 +85,7 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
--m
+
     const response = await fetch('https://tomgptx.onrender.com', {
         method: 'POST',
         headers: {
